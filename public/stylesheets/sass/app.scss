@@ -77,10 +77,10 @@ h1.text-muted, h2.text-muted, h3.text-muted, h4.text-muted, h5.text-muted, h6.te
 // order to rotate something. This way, we don't have to repeat our vendor
 // prefixes every time.
 .project-name {
-  -webkit-transform-origin: left;
-  -ms-transform-origin: left;
-  transform-origin: left;
   -webkit-transform: rotate(-3deg);
   -ms-transform: rotate(-3deg);
   transform: rotate(-3deg);
+  -webkit-transform-origin: left;
+  -ms-transform-origin: left;
+  transform-origin: left;
 }
